@@ -42,9 +42,10 @@
 }
 
 .contentContainer button {
+  align-self: flex-start;
   border: 1px solid white;
-  padding: 10px 60px;
   font-size: 18px;
+  padding: 10px 60px;
   font-weight: 300;
   cursor: pointer;
 }
@@ -64,9 +65,13 @@
   background-color: black;
 }
 
+.white {
+  background-color: white;
+}
+
 .contentContainer {
   padding: 30px;
-  width: 1000px;
+  width: 1100px;
   margin: auto;
 }
 
@@ -87,6 +92,10 @@
   flex-wrap: wrap;  
 }
 
+.flexDirectionColumn {
+  flex-direction: column;
+}
+
 .justifyBetween {
   justify-content: space-between;
 }
@@ -97,6 +106,10 @@
 
 .greyContent {
   color: grey;
+}
+
+.blackContent {
+  color: black;
 }
 
 .container2 {
@@ -131,14 +144,55 @@
 
 .container2Responsive {
   max-width: 400px;
+  margin-right: 180px;
 }
-
 
 .container2Number {
   font-size: 104px;
   font-weight: 300;
   line-height: 104px;
 }
+
+.container3 {
+  position: relative;
+}
+
+
+.container3 .title {
+  text-transform: uppercase;
+  margin-bottom: 40px;  
+  font-weight: 300;
+  margin-top: 80px;
+  letter-spacing: 1px;
+}
+
+.container3 h2 {
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 60px;
+}
+
+.container3 button {
+  background-color: transparent;
+  color: black;
+  margin-top: 40px;
+  border-color: black;
+  margin-bottom: 180px;
+}
+
+.container3 .contentLeft {
+  max-width: 340px;
+}
+
+.container3 .relativeImage {
+  position: absolute;
+  right: 0px;
+  width: 860px;
+  object-fit: cover;
+  height: 600px;
+  bottom: -200px;
+}
+
 
 /*
  ABOVEEE

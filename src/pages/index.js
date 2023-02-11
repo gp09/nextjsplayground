@@ -72,7 +72,60 @@ export default function Home() {
                     <h3>LEADING #1 TENNIS CENTRE</h3>  
                     <hr/>
                     <p>We want to create an environment ideal for building craft. Our goal is to become the best tennis perfomance centre in the world</p>
-                    <button>Signup</button>
+                    <button>Hello</button>
+               </div>
+              </div>
+              <div className={`${styles.flexContainer} ${styles.width50} ${styles.flexWrap}`}>
+                <div className={`${styles.width50} $`}>
+                  <h2 className={styles.container2Number}>10+</h2>
+                  <p>Professional Trainers</p>
+                </div>
+                <div className={`${styles.width50}`}>
+                  <h2 className={styles.container2Number}>18</h2>
+                  <p>Courts</p>
+                </div>
+                <div className={`${styles.width50}`}>
+                  <h2 className={styles.container2Number}>12</h2>
+                  <p>Classes</p>
+                </div>
+                <div className={`${styles.width50}`}>
+                  <h2 className={styles.container2Number}>10k+</h2>
+                  <p>Students</p>
+                </div>
+              </div>     
+                         
+            </div>
+          </div>  
+          <div className={`${styles.container} ${styles.white} ${styles.container3} ${styles.blackContent}`}>            
+            <div className={styles.contentContainer}>
+              <p className={`${styles.title} ${styles.greyContent}`}>Our Story</p>
+              <h2>Founded in 1964 by a team of professional tennis playersour club</h2>
+              <div className={`${styles.flexContainer} ${styles.justifyBetween}`}>
+                <div>
+                  <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a2f344ddd319f9a52e856d_Image%20Left%20About.jpg' />
+                </div>                
+                <div className={`${styles.flexContainer} ${styles.flexDirectionColumn}`}>
+                  <button>About</button>
+                  <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a2f343e938102829e69c40_Image%20Right%20About.jpg' />                
+                </div>                
+              </div>
+              <p className={`${styles.title} ${styles.greyContent}`}>CLASSES</p>
+              <h2>Tennis lessons are a great gift for Christmas or Birthdays all year round</h2> 
+              <div className={styles.contentLeft}>
+                <p>Can help someone work on something specific or develop your overall game and strategy!</p>
+                <button>View our programs</button>
+              </div>              
+              <img className={styles.relativeImage} src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a30a1dca8aa63d3d1dbf9e_Rectangle%205%20(1).jpg'/>
+            </div>                     
+          </div>
+          <div className={`${styles.container} ${styles.black} ${styles.container2}`}>
+            <div className={`${styles.flexContainer} ${styles.contentContainer} ${styles.justifyBetween}`}>
+              <div className={`${styles.width50} ${styles.greyContent}`}>
+               <div className={`${styles.container2Responsive}`}>
+                    <h3>LEADING #1 TENNIS CENTRE</h3>  
+                    <hr/>
+                    <p>We want to create an environment ideal for building craft. Our goal is to become the best tennis perfomance centre in the world</p>
+                    <button>Hello</button>
                </div>
               </div>
               <div className={`${styles.flexContainer} ${styles.width50} ${styles.flexWrap}`}>
