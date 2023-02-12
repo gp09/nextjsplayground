@@ -50,20 +50,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>    
       <main className={`${styles.main}`}>       
-          <div className={`${styles.container}`}>
-            <header className={styles.header}>
-              {renderNav()}
-            </header>
-            <div className={`${styles.flexContainer}`}>
-                <div className={styles.contentContainer}>
-                    <div className={styles.center}>
-                        <h1>Being fast in tennis is everything.</h1>
-                    </div>
-                    <div className={styles.center}>
-                        <button>Signup</button>
-                    </div>
-                </div>
-            </div>
+          <div className={`${styles.container} ${styles.container1}`}>
+            <div className={styles.overlayBlackBg}>
+              <header className={styles.header}>
+                {renderNav()}
+              </header>
+              <div className={`${styles.flexContainer}`}>
+                  <div className={styles.contentContainer}>
+                      <div className={styles.center}>
+                          <h1>Being fast in tennis is everything.</h1>
+                      </div>
+                      <div className={styles.center}>
+                          <button>Signup</button>
+                      </div>
+                  </div>
+              </div>
+            </div>            
           </div>       
           <div className={`${styles.container} ${styles.black} ${styles.container2}`}>
             <div className={`${styles.flexContainer} ${styles.contentContainer} ${styles.justifyBetween}`}>
@@ -118,37 +120,56 @@ export default function Home() {
               <img className={styles.relativeImage} src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a30a1dca8aa63d3d1dbf9e_Rectangle%205%20(1).jpg'/>
             </div>                     
           </div>
-          <div className={`${styles.container} ${styles.black} ${styles.container2}`}>
-            <div className={`${styles.flexContainer} ${styles.contentContainer} ${styles.justifyBetween}`}>
-              <div className={`${styles.width50} ${styles.greyContent}`}>
-               <div className={`${styles.container2Responsive}`}>
-                    <h3>LEADING #1 TENNIS CENTRE</h3>  
-                    <hr/>
-                    <p>We want to create an environment ideal for building craft. Our goal is to become the best tennis perfomance centre in the world</p>
-                    <button>Hello</button>
-               </div>
+          <div className={`${styles.container} ${styles.black} ${styles.container4}`}>
+            <div className={`${styles.contentContainer}`}>
+              <div className={`${styles.flexContainer} ${styles.justifyBetween}`}>
+                  <div className={`${styles.width50} ${styles.greyContent}`}>
+                      <h3>OUR COACHES</h3>                 
+                  </div>
+                  <div className={`${styles.flexContainer} ${styles.width50} ${styles.flexWrap}`}>
+                      <h2 className={styles.container4TagLine}>Grow your skill with academy team</h2>
+                  </div>                                                         
+              </div>              
+              <div className={`${styles.flexContainer} ${styles.justifyBetween}`}>
+                  <div>
+                      <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a58f74efca1169e6e1c91f_Rectangle%2017%20(1).jpg'/>
+                      <p>Brooklyn Simmons</p>
+                  </div>
+                  <div>
+                      <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a58f7e65217b35011dc164_Rectangle%2018%20(1).jpg'/>
+                      <p>Jenny Wilson</p>
+                  </div>
+                  <div>
+                      <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a58f8d76dc2e239dabdf0b_Rectangle%2019%20(1).jpg'/>
+                      <p>Bessie Cooper</p>
+                  </div>
+                  <div>
+                      <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a58fb1efca1139aae1cf98_Rectangle%2020%20(1).jpg'/>
+                      <p>Albert Flores</p>
+                  </div>
               </div>
-              <div className={`${styles.flexContainer} ${styles.width50} ${styles.flexWrap}`}>
-                <div className={`${styles.width50} $`}>
-                  <h2 className={styles.container2Number}>10+</h2>
-                  <p>Professional Trainers</p>
-                </div>
-                <div className={`${styles.width50}`}>
-                  <h2 className={styles.container2Number}>18</h2>
-                  <p>Courts</p>
-                </div>
-                <div className={`${styles.width50}`}>
-                  <h2 className={styles.container2Number}>12</h2>
-                  <p>Classes</p>
-                </div>
-                <div className={`${styles.width50}`}>
-                  <h2 className={styles.container2Number}>10k+</h2>
-                  <p>Students</p>
-                </div>
-              </div>     
-                         
-            </div>
+              <div className={styles.container4BottomImage}>
+                <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a5912e3088268016128381_Rectangle%2021%20(1).jpg'/>
+              </div>
+            </div>          
           </div>  
+          <div className={`${styles.container} ${styles.white} ${styles.container5} ${styles.blackContent}`}>            
+            <div className={styles.contentContainer}>             
+              <div className={`${styles.flexContainer} ${styles.spaceAround}`}>
+                <div>
+                  <img src='https://assets.website-files.com/63a1b002ae022572d8e8248e/63a5a30c6ccbdb51725f6490_Rectangle%2022%20(1).jpg' />
+                </div>                
+                <div className={`${styles.flexContainer} ${styles.flexDirectionColumn}`}>
+                  <h2>Unique venue.<br/>Exceptional team.<br/>One passion.</h2>
+                </div>                
+              </div>             
+            </div>                     
+          </div>
+          <div className={`${styles.container} ${styles.footer} ${styles.black}`}>            
+            <div className={`${styles.contentContainer} ${styles.center}`}>
+                <p>Made by Priyank.<br/> <span className={styles.footerSubtitle}>Inspired from Webflow template</span></p>
+            </div>
+          </div>
       </main>
     </>
   )
