@@ -1,10 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Script from 'next/script'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
@@ -49,19 +45,7 @@ export default function Home() {
         <meta name="description" content="Next js landing page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>   
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=UA-157371912-1"
-      />
-      <Script id="google-analytics" >
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-157371912-1');
-        `}
-      </Script> 
+      </Head>    
       <main className={`${styles.main}`}>       
           <div className={`${styles.container} ${styles.container1}`}>
             <div className={styles.overlayBlackBg}>
