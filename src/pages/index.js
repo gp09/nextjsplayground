@@ -52,9 +52,8 @@ export default function Home() {
       </Head>   
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=UA-157371912-1"
-        strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics" >
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
